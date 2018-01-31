@@ -46,13 +46,16 @@ namespace CSharp_Net_module1_1_4_lab
             List<int> laptops = new List<int>();
             List<int> servers = new List<int>();
 
+            int[] all_desktops = new int[3];
+            int[] all_laptops = new int[3];
+            int[] all_servers = new int[3];
+
+            int desktops_in_company;
+            int laptops_in_company;
+            int servers_in_company;
+
             for (int i = 0; i < comps_per_dep.Length; i++)
-            {
-                //count = 0;
-                //int desktop_sum = desktops;
-                //int laptop_sum = laptops;
-                //int server_sum = servers;
-                //System.Console.Write("Dep_computers({0}): ", i);
+            { 
                 for (int j = 0; j < comps_per_dep[i].Length; j++)
                 {
                     if (j == 0)
@@ -71,39 +74,22 @@ namespace CSharp_Net_module1_1_4_lab
                         servers.Add(c);
                     }
                     else break;
-        }
-                int[] all_desktops = desktops.ToArray();
-                int[] all_laptops = laptops.ToArray();
-                int[] all_servers = servers.ToArray();
-            
+                }
 
-                int desktops_in_company = all_desktops[0] + all_desktops[1] + all_desktops[2] + all_desktops[3];
-                int laptops_in_company = all_laptops[0] + all_laptops[1] + all_laptops[2] + all_laptops[3];
-                int servers_in_company = all_servers[0] + all_servers[1] + all_servers[2] + all_servers[3];
-                int total_amount = desktops_in_company + laptops_in_company + servers_in_company;
-                Console.WriteLine("Amount of: " +
-                            "Desktops - " + desktops_in_company + "\n" +
-                            "Laptops - " + laptops_in_company + "\n" +
-                            "Servers - " + servers_in_company + "\n" +
-                            "Total amount of computers in company  is" + total_amount + " Computers");
-                Console.ReadLine();
-                /*
-                 {
-                     int desktops = comps_per_dep[i][0];
-                     int laptops = comps_per_dep[i][1];
-                     int servers = comps_per_dep[i][2];
-                     //count++;
-                     //int desktop = (int)ComputerType.Desktop;
-                     //(ComputerType)i
-
-                     //System.Console.Write("{0}{1}", comps_per_dep[i][j], j == (comps_per_dep[i].Length - 1) ? "" : " ");
-                 }*/
-
-                //System.Console.WriteLine(desktop_sum);
-                //System.Console.WriteLine(laptop_sum);
-                //System.Console.WriteLine(server_sum);
-                //Console.WriteLine("Number of computer type: " + ComputerType.Desktop + " is " + count);
+                all_desktops = desktops.ToArray();
+                all_laptops = laptops.ToArray();
+                all_servers = servers.ToArray();    
             }
+            desktops_in_company = all_desktops.Sum();
+            laptops_in_company = all_laptops.Sum();
+            servers_in_company = all_servers.Sum();
+            int total_amount = desktops_in_company + laptops_in_company + servers_in_company;
+            Console.WriteLine("Amount of: \n " +
+                        "Desktops per department " + desktops_in_company + "\n" +
+                        "Laptops per department " + laptops_in_company + "\n" +
+                        "Servers  per department " + servers_in_company + "\n" +
+                        "Total amount of computers in company  is " + total_amount + " Computers");
+            Console.ReadLine();
             // 7) count total number of all computers
             // Note: use loops and if-else statements
             // Note: use the same loop for 6) and 7)
@@ -126,7 +112,7 @@ namespace CSharp_Net_module1_1_4_lab
             // 10) make desktop upgrade: change memory up to 8
             // change value of memory to 8 for every desktop. Don't do it for other computers
             // Note: use loops and if-else statements
-            
+
 
             System.Console.WriteLine("Press any key to exit.");
             System.Console.ReadKey();
