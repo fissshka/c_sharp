@@ -14,6 +14,7 @@ namespace CSharp_Net_module1_1_4_lab
         // 2) declare struct Computer
         struct Computer
         {
+            ComputerType type;
             public int CPU;
             double HGz;
             public int memory;
@@ -37,14 +38,71 @@ namespace CSharp_Net_module1_1_4_lab
             // Keep the console window open in debug mode.
             // Note: use loops and if-else statements
             // 6) count total number of every type of computers
-            for (int i = 0; i < comps_per_dep.[0]; i++)
+            int count;
+            //int desktops;
+            //int laptops;
+            //int servers;
+            List <int> desktops = new List<int>();
+            List<int> laptops = new List<int>();
+            List<int> servers = new List<int>();
+
+            for (int i = 0; i < comps_per_dep.Length; i++)
             {
-                System.Console.Write("Dep_computers({0}): ", i);
+                //count = 0;
+                //int desktop_sum = desktops;
+                //int laptop_sum = laptops;
+                //int server_sum = servers;
+                //System.Console.Write("Dep_computers({0}): ", i);
                 for (int j = 0; j < comps_per_dep[i].Length; j++)
                 {
-                    System.Console.Write("{0}{1}", comps_per_dep[i][j], j == (comps_per_dep[i].Length - 1) ? "" : " ");
-                }
-                System.Console.WriteLine();
+                    if (j == 0)
+                    {
+                        int a = comps_per_dep[i][0];
+                        desktops.Add(a);
+                    }
+                    else if (j == 1)
+                    {
+                        int b = comps_per_dep[i][1];
+                        laptops.Add(b);
+                    }
+                    else if (j == 2)
+                    {
+                        int c = comps_per_dep[i][2];
+                        servers.Add(c);
+                    }
+                    else break;
+        }
+                int[] all_desktops = desktops.ToArray();
+                int[] all_laptops = laptops.ToArray();
+                int[] all_servers = servers.ToArray();
+            
+
+                int desktops_in_company = all_desktops[0] + all_desktops[1] + all_desktops[2] + all_desktops[3];
+                int laptops_in_company = all_laptops[0] + all_laptops[1] + all_laptops[2] + all_laptops[3];
+                int servers_in_company = all_servers[0] + all_servers[1] + all_servers[2] + all_servers[3];
+                int total_amount = desktops_in_company + laptops_in_company + servers_in_company;
+                Console.WriteLine("Amount of: " +
+                            "Desktops - " + desktops_in_company + "\n" +
+                            "Laptops - " + laptops_in_company + "\n" +
+                            "Servers - " + servers_in_company + "\n" +
+                            "Total amount of computers in company  is" + total_amount + " Computers");
+                Console.ReadLine();
+                /*
+                 {
+                     int desktops = comps_per_dep[i][0];
+                     int laptops = comps_per_dep[i][1];
+                     int servers = comps_per_dep[i][2];
+                     //count++;
+                     //int desktop = (int)ComputerType.Desktop;
+                     //(ComputerType)i
+
+                     //System.Console.Write("{0}{1}", comps_per_dep[i][j], j == (comps_per_dep[i].Length - 1) ? "" : " ");
+                 }*/
+
+                //System.Console.WriteLine(desktop_sum);
+                //System.Console.WriteLine(laptop_sum);
+                //System.Console.WriteLine(server_sum);
+                //Console.WriteLine("Number of computer type: " + ComputerType.Desktop + " is " + count);
             }
             // 7) count total number of all computers
             // Note: use loops and if-else statements
@@ -68,6 +126,8 @@ namespace CSharp_Net_module1_1_4_lab
             // 10) make desktop upgrade: change memory up to 8
             // change value of memory to 8 for every desktop. Don't do it for other computers
             // Note: use loops and if-else statements
+            
+
             System.Console.WriteLine("Press any key to exit.");
             System.Console.ReadKey();
         }
