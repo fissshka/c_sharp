@@ -9,19 +9,28 @@ namespace CSharp_Net_module1_1_4_lab
     class Program
     {
         // 1) declare enum ComputerType
-        enum ComputerType { Desktop, Laptop, Server};
+        public enum ComputerType {Desktop, Laptop, Server};
 
         // 2) declare struct Computer
-        struct Computer
+        public struct Computer
         {
             ComputerType type;
-            public int CPU;
-            double HGz;
-            public int memory;
-            public int HDD;
+            int CPU;
+            float HGz;
+            int memory;
+            int HDD;
         }
 
-        static void Main(string[] args)
+        public Computer(ComputerType type, int memory, float HGz, int CPU, int HDD)
+            {
+                this.type = type;
+                this.memory = memory;
+                this.HGz = HGz;
+                this.CPU = CPU;
+                this.HDD = HDD;
+            }
+
+            static void Main(string[] args)
         {
             // 3) declare jagged array of computers size 4 (4 departments)
             int[][] comps_per_dep = new int[4][];
@@ -38,11 +47,10 @@ namespace CSharp_Net_module1_1_4_lab
             // Keep the console window open in debug mode.
             // Note: use loops and if-else statements
             // 6) count total number of every type of computers
-            int count;
-            //int desktops;
-            //int laptops;
-            //int servers;
-            List <int> desktops = new List<int>();
+            // 7) count total number of all computers
+            // Note: use loops and if-else statements
+            // Note: use the same loop for 6) and 7)
+            List<int> desktops = new List<int>();
             List<int> laptops = new List<int>();
             List<int> servers = new List<int>();
 
@@ -90,12 +98,6 @@ namespace CSharp_Net_module1_1_4_lab
                         "Servers  per department " + servers_in_company + "\n" +
                         "Total amount of computers in company  is " + total_amount + " Computers");
             Console.ReadLine();
-            // 7) count total number of all computers
-            // Note: use loops and if-else statements
-            // Note: use the same loop for 6) and 7)
-
-
-
             // 8) find computer with the largest storage (HDD) - 
             // compare HHD of every computer between each other; 
             // find position of this computer in array (indexes)
