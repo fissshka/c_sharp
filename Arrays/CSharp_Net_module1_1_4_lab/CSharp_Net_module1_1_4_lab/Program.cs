@@ -9,28 +9,51 @@ namespace CSharp_Net_module1_1_4_lab
     class Program
     {
         // 1) declare enum ComputerType
-        public enum ComputerType {Desktop, Laptop, Server};
+        public enum ComputerType { Desktop, Laptop, Server };
 
         // 2) declare struct Computer
         public struct Computer
         {
-            ComputerType type;
-            int CPU;
-            float HGz;
-            int memory;
-            int HDD;
+            public int CPU;
+            public float HGz;
+            public int memory;
+            public int HDD;
         }
 
-        public Computer(ComputerType type, int memory, float HGz, int CPU, int HDD)
+        public Computer(int CPU, float HGz, int memory, int HDD)
+        {
+            Computer d = new Computer();
+            d.CPU = 2;
+            d.HGz = 2.5f;
+            d.memory = 6;
+            d.HDD = 500;
+        }
+        public Computer(int CPU, float HGz, int memory, int HDD)
             {
-                this.type = type;
+            Computer l = new Computer();
+            l.CPU = 2;
+            l.HGz = 1.7f;
+            l.memory = 4;
+            l.HDD = 250;
+        }
+        public Computer(int CPU, float HGz, int memory, int HDD)
+        {
+            Computer s = new Computer();
+            s.CPU = 8;
+            s.HGz = 3f;
+            s.memory = 16;
+            s.HDD = 2000; 
+        }
+
+        /*public Computer(int CPU, float HGz, int memory, int HDD)
+            {
                 this.memory = memory;
                 this.HGz = HGz;
                 this.CPU = CPU;
                 this.HDD = HDD;
-            }
+            }*/
 
-            static void Main(string[] args)
+        static void Main(string[] args)
         {
             // 3) declare jagged array of computers size 4 (4 departments)
             int[][] comps_per_dep = new int[4][];
