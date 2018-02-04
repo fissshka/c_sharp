@@ -14,45 +14,19 @@ namespace CSharp_Net_module1_1_4_lab
         // 2) declare struct Computer
         public struct Computer
         {
-            public int CPU;
+            public ComputerType type;
+            public int CPU, Memory, HDD;
             public float HGz;
-            public int memory;
-            public int HDD;
-        }
 
-        public Computer(int CPU, float HGz, int memory, int HDD)
-        {
-            Computer d = new Computer();
-            d.CPU = 2;
-            d.HGz = 2.5f;
-            d.memory = 6;
-            d.HDD = 500;
-        }
-        public Computer(int CPU, float HGz, int memory, int HDD)
+            public Computer(ComputerType type, int CPU, float HGz, int Memory, int HDD)
             {
-            Computer l = new Computer();
-            l.CPU = 2;
-            l.HGz = 1.7f;
-            l.memory = 4;
-            l.HDD = 250;
-        }
-        public Computer(int CPU, float HGz, int memory, int HDD)
-        {
-            Computer s = new Computer();
-            s.CPU = 8;
-            s.HGz = 3f;
-            s.memory = 16;
-            s.HDD = 2000; 
-        }
-
-        /*public Computer(int CPU, float HGz, int memory, int HDD)
-            {
-                this.memory = memory;
-                this.HGz = HGz;
+                this.type = type;
                 this.CPU = CPU;
+                this.HGz = HGz;
+                this.Memory = Memory;
                 this.HDD = HDD;
-            }*/
-
+            } 
+        } 
         static void Main(string[] args)
         {
             // 3) declare jagged array of computers size 4 (4 departments)
@@ -86,7 +60,7 @@ namespace CSharp_Net_module1_1_4_lab
             int servers_in_company;
 
             for (int i = 0; i < comps_per_dep.Length; i++)
-            { 
+            {
                 for (int j = 0; j < comps_per_dep[i].Length; j++)
                 {
                     if (j == 0)
@@ -109,7 +83,7 @@ namespace CSharp_Net_module1_1_4_lab
 
                 all_desktops = desktops.ToArray();
                 all_laptops = laptops.ToArray();
-                all_servers = servers.ToArray();    
+                all_servers = servers.ToArray();
             }
             desktops_in_company = all_desktops.Sum();
             laptops_in_company = all_laptops.Sum();
@@ -125,24 +99,90 @@ namespace CSharp_Net_module1_1_4_lab
             // compare HHD of every computer between each other; 
             // find position of this computer in array (indexes)
             // Note: use loops and if-else statements
+            Computer Desktop_property;
+            Desktop_property.type = ComputerType.Desktop;
+            Desktop_property.CPU = 2;
+            Desktop_property.HGz = 2.5f;
+            Desktop_property.Memory = 6;
+            Desktop_property.HDD = 500;
 
+            Computer Laptop_property;
+            Laptop_property.type = ComputerType.Laptop;
+            Laptop_property.CPU = 4;
+            Laptop_property.HGz = 1.7f;
+            Laptop_property.Memory = 4;
+            Laptop_property.HDD = 250;
+
+            Computer Server_property;
+            Server_property.type = ComputerType.Server;
+            Server_property.CPU = 8;
+            Server_property.HGz = 3f;
+            Server_property.Memory = 16;
+            Server_property.HDD = 2000;
+
+            if (Desktop_property.HDD > Laptop_property.HDD)
+            {
+                if (Desktop_property.HDD > Server_property.HDD)
+                {
+                    Console.WriteLine("The biggest HDD is for Desktop and it is " + Desktop_property.HDD);
+                }
+                else
+                {
+                    Console.WriteLine("The biggest HDD is for Server and it is " + Desktop_property.HDD);
+                }
+            }
+            else
+            {
+                if (Laptop_property.HDD > Server_property.HDD)
+                {
+                    Console.WriteLine("The biggest HDD is for Laptop and it is " + Laptop_property.HDD);
+                }
+                else
+                {
+                    Console.WriteLine("The biggest HDD is for Server and it is " + Server_property.HDD);
+                }
+            }
 
             // 9) find computer with the lowest productivity (CPU and memory) - 
             // compare CPU and memory of every computer between each other; 
             // find position of this computer in array (indexes)
             // Note: use loops and if-else statements
             // Note: use logical oerators in statement conditions
+            if (Desktop_property.CPU < Laptop_property.CPU)
+            {
+                if (Desktop_property.CPU < Server_property.CPU)
+                {
+                    Console.WriteLine("The lowest productivity is for Desktop and it is " + Desktop_property.CPU);
+                }
+                else
+                {
+                    Console.WriteLine("The lowest productivity is for Server and it is " + Desktop_property.CPU);
+                }
+            }
+            else
+            {
+                if (Laptop_property.CPU < Server_property.CPU)
+                {
+                    Console.WriteLine("The lowest productivity is for Laptop and it is " + Laptop_property.CPU);
+                }
+                else
+                {
+                    Console.WriteLine("The lowest productivity is for Server and it is " + Server_property.CPU);
+                }
+            }
 
 
             // 10) make desktop upgrade: change memory up to 8
             // change value of memory to 8 for every desktop. Don't do it for other computers
             // Note: use loops and if-else statements
-
+            Desktop_property.Memory = 8;
+            Console.WriteLine("Desktop memory is upgraded and it is " + 
+                Desktop_property.Memory + ";" + " Laptop memory is " + Laptop_property.Memory + ";" + 
+                " Server memory is " + Server_property.Memory + ";");
 
             System.Console.WriteLine("Press any key to exit.");
             System.Console.ReadKey();
         }
     }
- 
-    }
 
+}
