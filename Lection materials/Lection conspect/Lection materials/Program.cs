@@ -45,3 +45,21 @@ return this.myCoolInt2;
 
 }
 }
+
+public class A
+{
+    public string a = "gff"; 
+}
+// get a value from class
+B a1 = new A();
+A.a .....
+
+    // get value f=without creaing class sample
+public class C
+{
+    public static string n = "gff";
+}
+// get a value from class
+C.n...
+
+
