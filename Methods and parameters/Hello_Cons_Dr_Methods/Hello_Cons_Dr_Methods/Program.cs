@@ -13,7 +13,8 @@ namespace Hello_Cons_Dr_Methods
             try
             {
                 //Implement start position, width and height, symbol, message input
-               
+                Console.WriteLine("Please, provide coordinates of the initial position");
+
                 //Create Box class instance
 
                 //Use  Box.Draw() method
