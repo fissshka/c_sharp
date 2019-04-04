@@ -1,0 +1,13 @@
+C:\Users\win7\Documents\Visual Studio 2013\Projects\Hello_Assemblies\PersonLibrary\PersonLibrary\bin\Debug\PersonLibrary.dll
+C:\Users\win7\Documents\Visual Studio 2013\Projects\Hello_Assemblies\PersonLibrary\PersonLibrary\bin\Debug\PersonLibrary.pdb
+C:\Users\win7\Documents\Visual Studio 2013\Projects\Hello_Assemblies\PersonLibrary\PersonLibrary\obj\Debug\PersonLibrary.dll
+C:\Users\win7\Documents\Visual Studio 2013\Projects\Hello_Assemblies\PersonLibrary\PersonLibrary\obj\Debug\PersonLibrary.pdb
+C:\Users\win7\Documents\Visual Studio 2013\Projects\Hello_Assemblies\PersonLibrary\PersonLibrary\obj\Debug\PersonLibrary.csprojResolveAssemblyReference.cache
+C:\Users\win7\Documents\Visual Studio 2013\Projects\Hello_Assemblies\v3\PersonLibrary\PersonLibrary\bin\Debug\PersonLibrary.dll
+C:\Users\win7\Documents\Visual Studio 2013\Projects\Hello_Assemblies\v3\PersonLibrary\PersonLibrary\bin\Debug\PersonLibrary.pdb
+C:\Users\win7\Documents\Visual Studio 2013\Projects\Hello_Assemblies\v3\PersonLibrary\PersonLibrary\obj\Debug\PersonLibrary.csprojResolveAssemblyReference.cache
+C:\Users\win7\Documents\Visual Studio 2013\Projects\Hello_Assemblies\v3\PersonLibrary\PersonLibrary\obj\Debug\PersonLibrary.dll
+C:\Users\win7\Documents\Visual Studio 2013\Projects\Hello_Assemblies\v3\PersonLibrary\PersonLibrary\obj\Debug\PersonLibrary.pdb
+C:\Users\pna\source\c_sharp_git\Assemblies\Lab Work 1.1\1.1.3 PersonLibrary\PersonLibrary\obj\Debug\PersonLibrary.csprojResolveAssemblyReference.cache
+C:\Users\pna\source\c_sharp_git\Assemblies\Lab Work 1.1\1.1.3 PersonLibrary\PersonLibrary\obj\Debug\PersonLibrary.dll
+C:\Users\pna\source\c_sharp_git\Assemblies\Lab Work 1.1\1.1.3 PersonLibrary\PersonLibrary\obj\Debug\PersonLibrary.pdb

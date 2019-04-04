@@ -8,9 +8,9 @@ namespace CSharp_Net_module1_2_1_lab
 {
         public interface ILibraryUser
         {
-            void AddBook(string AddedBook);
-            void RemoveBook(string RemovedBook);
-            string BookInfo(int BookIndex);
+            void AddBook(string Book);
+            void RemoveBook(string Book);
+        string BookInfo();//int BookIndex);
             int BooksCount();
         }
 }

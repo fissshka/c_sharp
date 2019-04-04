@@ -1,0 +1,15 @@
+E:\Khem\Demo\CodeFirstDemoApplication\CodeFirstModel\bin\Debug\CodeFirstModel.dll
+E:\Khem\Demo\CodeFirstDemoApplication\CodeFirstModel\bin\Debug\CodeFirstModel.pdb
+E:\Khem\Demo\CodeFirstDemoApplication\CodeFirstModel\obj\Debug\CodeFirstModel.csprojResolveAssemblyReference.cache
+E:\Khem\Demo\CodeFirstDemoApplication\CodeFirstModel\obj\Debug\CodeFirstModel.dll
+E:\Khem\Demo\CodeFirstDemoApplication\CodeFirstModel\obj\Debug\CodeFirstModel.pdb
+C:\Users\svf\OneDrive\Work\Lesha\Brain Academy\Done\Module 3_1\Labs\3_1_3\CodeFirstDemoApplicationwe\CodeFirstModel\bin\Debug\CodeFirstModel.dll
+C:\Users\svf\OneDrive\Work\Lesha\Brain Academy\Done\Module 3_1\Labs\3_1_3\CodeFirstDemoApplicationwe\CodeFirstModel\bin\Debug\CodeFirstModel.pdb
+C:\Users\svf\OneDrive\Work\Lesha\Brain Academy\Done\Module 3_1\Labs\3_1_3\CodeFirstDemoApplicationwe\CodeFirstModel\obj\Debug\CodeFirstModel.csprojResolveAssemblyReference.cache
+C:\Users\svf\OneDrive\Work\Lesha\Brain Academy\Done\Module 3_1\Labs\3_1_3\CodeFirstDemoApplicationwe\CodeFirstModel\obj\Debug\CodeFirstModel.dll
+C:\Users\svf\OneDrive\Work\Lesha\Brain Academy\Done\Module 3_1\Labs\3_1_3\CodeFirstDemoApplicationwe\CodeFirstModel\obj\Debug\CodeFirstModel.pdb
+C:\Users\svf\OneDrive\Work\Lesha\Brain Academy\Done\Module 3_1\Labs\3_1_3\CSharp_Net-module3_1_1–lab\CodeFirstModel\bin\Debug\CodeFirstModel.dll
+C:\Users\svf\OneDrive\Work\Lesha\Brain Academy\Done\Module 3_1\Labs\3_1_3\CSharp_Net-module3_1_1–lab\CodeFirstModel\bin\Debug\CodeFirstModel.pdb
+C:\Users\svf\OneDrive\Work\Lesha\Brain Academy\Done\Module 3_1\Labs\3_1_3\CSharp_Net-module3_1_1–lab\CodeFirstModel\obj\Debug\CodeFirstModel.csprojResolveAssemblyReference.cache
+C:\Users\svf\OneDrive\Work\Lesha\Brain Academy\Done\Module 3_1\Labs\3_1_3\CSharp_Net-module3_1_1–lab\CodeFirstModel\obj\Debug\CodeFirstModel.dll
+C:\Users\svf\OneDrive\Work\Lesha\Brain Academy\Done\Module 3_1\Labs\3_1_3\CSharp_Net-module3_1_1–lab\CodeFirstModel\obj\Debug\CodeFirstModel.pdb

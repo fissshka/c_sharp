@@ -1,0 +1,18 @@
+c:\users\svf\documents\visual studio 2013\Projects\NamespacesAssemblies\UsingDirectiveAliasExample\bin\Debug\UsingDirectiveAliasExample.exe.config
+c:\users\svf\documents\visual studio 2013\Projects\NamespacesAssemblies\UsingDirectiveAliasExample\bin\Debug\UsingDirectiveAliasExample.exe
+c:\users\svf\documents\visual studio 2013\Projects\NamespacesAssemblies\UsingDirectiveAliasExample\bin\Debug\UsingDirectiveAliasExample.pdb
+c:\users\svf\documents\visual studio 2013\Projects\NamespacesAssemblies\UsingDirectiveAliasExample\obj\Debug\UsingDirectiveAliasExample.csprojResolveAssemblyReference.cache
+c:\users\svf\documents\visual studio 2013\Projects\NamespacesAssemblies\UsingDirectiveAliasExample\obj\Debug\UsingDirectiveAliasExample.exe
+c:\users\svf\documents\visual studio 2013\Projects\NamespacesAssemblies\UsingDirectiveAliasExample\obj\Debug\UsingDirectiveAliasExample.pdb
+D:\Work\mainacad.com\Labs\1.1\NamespacesAssemblies\UsingDirectiveAliasExample\bin\Debug\UsingDirectiveAliasExample.exe.config
+D:\Work\mainacad.com\Labs\1.1\NamespacesAssemblies\UsingDirectiveAliasExample\bin\Debug\UsingDirectiveAliasExample.exe
+D:\Work\mainacad.com\Labs\1.1\NamespacesAssemblies\UsingDirectiveAliasExample\bin\Debug\UsingDirectiveAliasExample.pdb
+D:\Work\mainacad.com\Labs\1.1\NamespacesAssemblies\UsingDirectiveAliasExample\obj\Debug\UsingDirectiveAliasExample.csprojResolveAssemblyReference.cache
+D:\Work\mainacad.com\Labs\1.1\NamespacesAssemblies\UsingDirectiveAliasExample\obj\Debug\UsingDirectiveAliasExample.exe
+D:\Work\mainacad.com\Labs\1.1\NamespacesAssemblies\UsingDirectiveAliasExample\obj\Debug\UsingDirectiveAliasExample.pdb
+D:\Work\mainacad.com\Labs\Lab Work 1.1\1.1.1 UsingDirectiveAliasExample\bin\Debug\UsingDirectiveAliasExample.exe.config
+D:\Work\mainacad.com\Labs\Lab Work 1.1\1.1.1 UsingDirectiveAliasExample\obj\Debug\UsingDirectiveAliasExample.exe
+D:\Work\mainacad.com\Labs\Lab Work 1.1\1.1.1 UsingDirectiveAliasExample\obj\Debug\UsingDirectiveAliasExample.pdb
+D:\Work\mainacad.com\Labs\Lab Work 1.1\1.1.1 UsingDirectiveAliasExample\bin\Debug\UsingDirectiveAliasExample.exe
+D:\Work\mainacad.com\Labs\Lab Work 1.1\1.1.1 UsingDirectiveAliasExample\bin\Debug\UsingDirectiveAliasExample.pdb
+D:\Work\mainacad.com\Labs\Lab Work 1.1\1.1.1 UsingDirectiveAliasExample\obj\Debug\UsingDirectiveAliasExample.csprojResolveAssemblyReference.cache

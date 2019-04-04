@@ -1,0 +1,12 @@
+c:\users\svf\documents\visual studio 2013\Projects\InheritancePolymorphism\InheritancePolymorphism\bin\Debug\InheritancePolymorphism.exe.config
+c:\users\svf\documents\visual studio 2013\Projects\InheritancePolymorphism\InheritancePolymorphism\bin\Debug\InheritancePolymorphism.exe
+c:\users\svf\documents\visual studio 2013\Projects\InheritancePolymorphism\InheritancePolymorphism\bin\Debug\InheritancePolymorphism.pdb
+c:\users\svf\documents\visual studio 2013\Projects\InheritancePolymorphism\InheritancePolymorphism\obj\Debug\InheritancePolymorphism.exe
+c:\users\svf\documents\visual studio 2013\Projects\InheritancePolymorphism\InheritancePolymorphism\obj\Debug\InheritancePolymorphism.pdb
+C:\Users\IaroslavPotushinsky\Desktop\InheritancePolymorphism\InheritancePolymorphism\bin\Debug\InheritancePolymorphism.exe.config
+C:\Users\IaroslavPotushinsky\Desktop\InheritancePolymorphism\InheritancePolymorphism\bin\Debug\InheritancePolymorphism.exe
+C:\Users\IaroslavPotushinsky\Desktop\InheritancePolymorphism\InheritancePolymorphism\bin\Debug\InheritancePolymorphism.pdb
+C:\Users\IaroslavPotushinsky\Desktop\InheritancePolymorphism\InheritancePolymorphism\obj\Debug\InheritancePolymorphism.csproj.CoreCompileInputs.cache
+C:\Users\IaroslavPotushinsky\Desktop\InheritancePolymorphism\InheritancePolymorphism\obj\Debug\InheritancePolymorphism.exe
+C:\Users\IaroslavPotushinsky\Desktop\InheritancePolymorphism\InheritancePolymorphism\obj\Debug\InheritancePolymorphism.pdb
+C:\Users\IaroslavPotushinsky\Desktop\InheritancePolymorphism\InheritancePolymorphism\obj\Debug\InheritancePolymorphism.csprojResolveAssemblyReference.cache

@@ -13,19 +13,23 @@ namespace Hello_Cons_Dr_Methods
         //and auto-implement properties for a symbol of a given set of valid characters (*, + ,.) to be used for the border 
         //and a message inside the box
         public int StartPosition { get; set; }
-        public int BoxWidth { get; set; }
-        public int BoxHeight { get; set; }
-        public int BoxBorder { get; set; }
+        public int Width { get; set; }
+        public int Height { get; set; }
+        public int BorderSymbol { get; set; }
         public int Message { get; set; }
         //2.  Implement public Draw() method
         //to define start position, width and height, symbol, message  according to properties
         //Use Math.Min() and Math.Max() methods
         //Use draw() to draw the box with message
-        public Box () 
-        public Draw()
+        public void Draw()
         {
-            int x, y;
-            int StartPosition = int.Parse(Console.ReadLine());
+            this.StartPosition = Math.Min();
+            this.BorderSymbol = '*';
+            this.Width = Math.Max(0, 100);
+            this.Height = Math.Max(0, 100);
+            this.Message = "Nice rectangular";
+            //int x, y;
+            //int StartPosition = int.Parse(Console.ReadLine());
         
         }
         //3.  Implement private method draw() with parameters 
