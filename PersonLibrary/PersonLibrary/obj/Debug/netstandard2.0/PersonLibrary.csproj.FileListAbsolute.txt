@@ -1,0 +1,9 @@
+c:\users\pna\source\repos\PersonLibrary\PersonLibrary\bin\Debug\netstandard2.0\PersonLibrary.deps.json
+c:\users\pna\source\repos\PersonLibrary\PersonLibrary\bin\Debug\netstandard2.0\PersonLibrary.dll
+c:\users\pna\source\repos\PersonLibrary\PersonLibrary\bin\Debug\netstandard2.0\PersonLibrary.pdb
+c:\users\pna\source\repos\PersonLibrary\PersonLibrary\obj\Debug\netstandard2.0\PersonLibrary.csprojResolveAssemblyReference.cache
+c:\users\pna\source\repos\PersonLibrary\PersonLibrary\obj\Debug\netstandard2.0\PersonLibrary.csproj.CoreCompileInputs.cache
+c:\users\pna\source\repos\PersonLibrary\PersonLibrary\obj\Debug\netstandard2.0\PersonLibrary.AssemblyInfoInputs.cache
+c:\users\pna\source\repos\PersonLibrary\PersonLibrary\obj\Debug\netstandard2.0\PersonLibrary.AssemblyInfo.cs
+c:\users\pna\source\repos\PersonLibrary\PersonLibrary\obj\Debug\netstandard2.0\PersonLibrary.dll
+c:\users\pna\source\repos\PersonLibrary\PersonLibrary\obj\Debug\netstandard2.0\PersonLibrary.pdb
